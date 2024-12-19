@@ -16,15 +16,17 @@ const darkColor = {
   colors: {
     primary: "#681e87",
     background: "#1f110f",
-    structure: "#342787"
+    structure: "#342787",
+    cursor: "#21b8ae"
   }
 }
 const lightColor = {
-  dark: true,
+  dark: false,
   colors: {
     primary: "#21b8ae",
     background: "#99abbd",
-    structure: "#0b78de"
+    structure: "#0b78de",
+    cursor: "#681e87"
   }
 }
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
