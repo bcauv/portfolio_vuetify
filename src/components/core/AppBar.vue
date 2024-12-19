@@ -1,5 +1,5 @@
 <template>
-    <v-container class="fill-height">
+    <v-container>
         <v-app-bar :elevation="2" color="structure">
             <v-app-bar-title>My portfolio in vuetify</v-app-bar-title>
             <v-spacer />

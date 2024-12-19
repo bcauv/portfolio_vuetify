@@ -10,6 +10,7 @@ import 'vuetify/styles'
 
 // Composables
 import { createVuetify } from 'vuetify'
+import * as components from "vuetify/components"
 
 const darkColor = {
   dark: true,
@@ -31,6 +32,7 @@ const lightColor = {
 }
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
+  components,
   theme: {
     defaultTheme: 'dark',
     themes: {
