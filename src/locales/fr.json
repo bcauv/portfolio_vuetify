@@ -1,0 +1,15 @@
+{
+  "common": {
+    "next": "Suivant",
+    "cancel": "Annuler"
+  },
+  "home": {
+    "welcome": "Bienvenue!",
+    "resume": "CV",
+    "aboutme": "A propos",
+    "portfolio": "Portfeuille"
+  },
+  "summary": {
+    "technical_stack": "Stack Technique"
+  }
+}

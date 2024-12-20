@@ -10,7 +10,7 @@
       </div>
       <br />
       <div>
-        Technical Stack
+        {{ $t('summary.technical_stack') }}
       </div>
       <br />
       <div>

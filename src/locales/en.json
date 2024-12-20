@@ -1,0 +1,15 @@
+{
+  "common": {
+    "next": "Next",
+    "cancel": "Cancel"
+  },
+  "home": {
+    "welcome": "Welcome!",
+    "resume": "Resume",
+    "aboutme": "About Me",
+    "portfolio": "Portfolio"
+  },
+  "summary": {
+    "technical_stack": "Technical Stack"
+  }
+}

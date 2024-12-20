@@ -1,9 +1,9 @@
 <template>
   <v-card>
     <v-tabs v-model="tab">
-      <v-tab value="aboutme"> About Me </v-tab>
-      <v-tab value="resume"> Resume </v-tab>
-      <v-tab value="portfolio"> Portfolio </v-tab>
+      <v-tab value="aboutme"> {{ $t('home.aboutme') }} </v-tab>
+      <v-tab value="resume"> {{ $t('home.resume') }} </v-tab>
+      <v-tab value="portfolio"> {{ $t('home.portfolio') }} </v-tab>
     </v-tabs>
     <v-card-text>
       <v-tabs-window v-model="tab">
