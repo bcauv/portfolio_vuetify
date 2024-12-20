@@ -4,7 +4,7 @@ import en from "@/locales/en.json"
 
 export const i18n = createI18n({
     legacy: false,
-    locale: navigator.language,
+    locale: "en",
     fallbackLocale: 'en',
     messages: { fr, en }
 })
