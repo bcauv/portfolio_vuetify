@@ -1,9 +1,7 @@
 <template>
-    <v-footer color="structure">
-        <div>
-            <v-btn v-for="icon in footerIcon" :key="icon.icon" :icon="icon.icon" class="mx-4" variant="text"
-                :href="icon.link" />
-        </div>
+    <v-footer color="structure" :app="true">
+        <v-btn v-for="icon in footerIcon" :key="icon.icon" :icon="icon.icon" class="ma-0 pa-0" variant="text"
+            :href="icon.link" />
     </v-footer>
 </template>
 
