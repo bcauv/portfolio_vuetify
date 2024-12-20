@@ -3,13 +3,13 @@
         <v-app-bar :elevation="2" color="structure">
             <v-app-bar-title>My portfolio in vuetify</v-app-bar-title>
             <v-spacer />
-            <select v-model="$i18n.locale" :class="[
+            <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
                 'custom-select rounded pa-2 pe-8',
                 `bg-${backgroundColor}`,
                 `text-${textColor}`,
                 theme.global.current.value.dark ? 'dark-border' : 'light-border'
             ]">
-                <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">
+                <option v-for="locale in availableLocales" :key="`locale-${locale}`" :value="locale">
                     {{ locale }}
                 </option>
             </select>
@@ -23,23 +23,35 @@
 import { onMounted, ref } from 'vue';
 import { useTheme } from 'vuetify'
 import { useCookies } from "vue3-cookies";
+import { useI18n } from 'vue-i18n'
 
 const { cookies } = useCookies();
 const theme = useTheme()
+const { locale, availableLocales } = useI18n()
 
 const themeToggle = ref(true)
 const backgroundColor = 'structure'
 const textColor = 'letters'
 
+// Add language handling
+const handleLanguageChange = (newLocale: string) => {
+    cookies.set("lang", newLocale);
+}
 const toggleSwitch = () => {
     theme.global.name.value = themeToggle.value ? 'light' : 'dark'
     cookies.set("theme", theme.global.name.value);
 }
 const setup = () => {
+    // Theme Setup
     let themeCookie = cookies.get("theme");
     theme.global.name.value = themeCookie ?? "dark"
     themeToggle.value = theme.global.name.value === "dark" ? true : false
     cookies.set("theme", theme.global.name.value);
+    // Language Setup
+    const savedLanguage = cookies.get("lang");
+    if (savedLanguage) {
+        locale.value = savedLanguage;
+    }
 }
 onMounted(() => {
     setup()
