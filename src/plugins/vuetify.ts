@@ -18,7 +18,8 @@ const darkColor = {
     primary: "#681e87",
     background: "#1f110f",
     structure: "#342787",
-    cursor: "#21b8ae"
+    cursor: "#21b8ae",
+    letters: "#fff"
   }
 }
 const lightColor = {
@@ -27,7 +28,8 @@ const lightColor = {
     primary: "#21b8ae",
     background: "#99abbd",
     structure: "#0b78de",
-    cursor: "#681e87"
+    cursor: "#681e87",
+    letters: "#000"
   }
 }
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
