@@ -9,14 +9,10 @@
 import { ref } from 'vue';
 
 const footerIcon = ref([
-    // {
-    //     icon: 'mdi-facebook',
-    //     link: ""
-    // },
-    // {
-    //     icon: 'mdi-twitter',
-    //     link: ""
-    // },
+    {
+        icon: 'mdi-github',
+        link: "https://github.com/bcauv"
+    },
     {
         icon: "mdi-linkedin",
         link: "https://www.linkedin.com/in/baptistecauvin/"
