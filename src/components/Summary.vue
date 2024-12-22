@@ -17,7 +17,7 @@
       <v-container class="mt-0 pt-0 d-flex justify-center flex-column">
         <v-row>
           <v-col cols="auto">
-            Developper Web Fullstack
+            {{ $t('summary.job_title') }}
           </v-col>
         </v-row>
         <v-row>
@@ -25,12 +25,12 @@
             <b> {{ $t('summary.technical_stack') }} </b>
           </v-col>
         </v-row>
-        <v-row>
-          <v-col>
-            Vue js <br />
-            Node js <br />
-            Typescript <br />
-            Mongo <br />
+        <v-row v-for="tech in technicalStackArray" class="d-flex justify-start">
+          <v-col cols="2">
+            <v-icon> {{ tech.icon }} </v-icon>
+          </v-col>
+          <v-col cols="auto">
+            <div> {{ tech.text }}</div>
           </v-col>
         </v-row>
       </v-container>
@@ -39,4 +39,29 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+
+
+const technicalStackArray = ref([
+  {
+    icon: "mdi-vuejs",
+    link: "https://vuejs.org",
+    text: "Vue.js"
+  },
+  {
+    icon: "mdi-database-outline",
+    link: "https://www.mongodb.com",
+    text: "MongoDB"
+  },
+  {
+    icon: "mdi-language-typescript",
+    link: "https://www.typescriptlang.org",
+    text: "Typescript"
+  },
+  {
+    icon: "mdi-nodejs",
+    link: "https://nodejs.org",
+    text: "Node.js"
+  }
+])
 </script>
