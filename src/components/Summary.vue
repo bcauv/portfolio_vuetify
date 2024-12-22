@@ -2,6 +2,13 @@
   <v-card>
     <v-card-title>
       <v-container class="my-0 py-0">
+        <v-row class="d-flex justify-center">
+          <v-col cols="auto">
+            <v-avatar size="100px">
+              <v-img alt="Photo Baptiste Cauvin" src="../assets/photo_prez.jpg" />
+            </v-avatar>
+          </v-col>
+        </v-row>
         <v-row class="ma-1 d-flex justify-center">
           <v-col cols="auto" class="pa-0 px-1">
             Baptiste
