@@ -7,10 +7,13 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    AboutMe: typeof import('./src/components/MainInfo/tabs/AboutMe.vue')['default']
     AppBar: typeof import('./src/components/core/AppBar.vue')['default']
     CoreInfo: typeof import('./src/components/core/CoreInfo.vue')['default']
     Footer: typeof import('./src/components/core/Footer.vue')['default']
-    MainInfo: typeof import('./src/components/MainInfo.vue')['default']
+    MainInfo: typeof import('./src/components/MainInfo/index.vue')['default']
+    Portfolio: typeof import('./src/components/MainInfo/tabs/Portfolio.vue')['default']
+    Resume: typeof import('./src/components/MainInfo/tabs/Resume.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Summary: typeof import('./src/components/Summary.vue')['default']
