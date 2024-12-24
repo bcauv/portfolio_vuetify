@@ -1,29 +1,24 @@
 <template>
   <v-expansion-panels variant="accordion" color="primary">
-    <v-expansion-panel title="2022-2024 BNP Paribas">
+    <v-expansion-panel title="Jobs">
       <v-expansion-panel-text>
-        <h3>Fullstack Developer</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-          incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut
-          aliquip
-          ex ea commodo consequat.
-        </p>
+        <Jobs />
       </v-expansion-panel-text>
     </v-expansion-panel>
-    <v-expansion-panel title="2021 Eatic">
+    <v-expansion-panel title="Academics/Skills">
       <v-expansion-panel-text>
-        <h3>Internship</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-          incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut
-          aliquip
-          ex ea commodo consequat.
-        </p>
+        <p>ECE Paris</p>
+        <p>English, Portuguese, Espanol</p>
+      </v-expansion-panel-text>
+    </v-expansion-panel>
+    <v-expansion-panel title="Projects">
+      <v-expansion-panel-text>
+        <Projects />
+      </v-expansion-panel-text>
+    </v-expansion-panel>
+    <v-expansion-panel title="Hobbies">
+      <v-expansion-panel-text>
+        Sport, tennis, coding, travels, films, music, video games
       </v-expansion-panel-text>
     </v-expansion-panel>
   </v-expansion-panels>
