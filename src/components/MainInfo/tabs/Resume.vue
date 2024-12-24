@@ -8,7 +8,7 @@
     <v-expansion-panel title="Academics/Skills">
       <v-expansion-panel-text>
         <p>ECE Paris</p>
-        <p>English, Portuguese, Espanol</p>
+        <p>English, Portuguese, Spanish</p>
       </v-expansion-panel-text>
     </v-expansion-panel>
     <v-expansion-panel title="Projects">

@@ -1,7 +1,8 @@
 <template>
     <v-container>
         <v-app-bar :elevation="2" color="structure">
-            <v-app-bar-title>My portfolio in vuetify</v-app-bar-title>
+            <v-app-bar-title><v-img :width="75" aspect-ratio="1/1"
+                    src="../../../public/logo_no_bg.png"></v-img></v-app-bar-title>
             <v-spacer />
             <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
                 'custom-select rounded pa-2 pe-8',
