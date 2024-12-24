@@ -3,6 +3,10 @@
     "next": "Suivant",
     "cancel": "Annuler"
   },
+  "main": {
+    "dev_fullstack": "Développeur Web Fullstack",
+    "internship": "Stage"
+  },
   "home": {
     "welcome": "Bienvenue!",
     "resume": "CV",
@@ -10,7 +14,15 @@
     "portfolio": "Portfeuille"
   },
   "summary": {
-    "technical_stack": "Stack Technique",
-    "job_title": "Développeur Web Fullstack"
+    "technical_stack": "Stack Technique"
+  },
+  "resume": {
+    "experience": "Experience",
+    "academic": "Scolaire",
+    "skills": "Compétences",
+    "certifications": "Certifications",
+    "projects": "Projets",
+    "jobs": "Travails",
+    "hobbies": "Passions"
   }
 }

@@ -2,7 +2,7 @@
   <v-expansion-panels variant="accordion" color="primary">
     <v-expansion-panel title="2022-2024 BNP Paribas">
       <v-expansion-panel-text>
-        <h3>Fullstack Developer</h3>
+        <h3>{{ $t('main.dev_fullstack') }}</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
           incididunt ut labore et
@@ -15,7 +15,7 @@
     </v-expansion-panel>
     <v-expansion-panel title="2021 Eatic">
       <v-expansion-panel-text>
-        <h3>Internship</h3>
+        <h3>{{ $t('main.internship') }}</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
           incididunt ut labore et

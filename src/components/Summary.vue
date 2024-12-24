@@ -24,7 +24,7 @@
       <v-container class="mt-0 pt-0 d-flex justify-center flex-column">
         <v-row>
           <v-col cols="auto">
-            {{ $t('summary.job_title') }}
+            {{ $t('main.dev_fullstack') }}
           </v-col>
         </v-row>
         <v-row>

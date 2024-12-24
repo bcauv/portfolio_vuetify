@@ -3,6 +3,10 @@
     "next": "Next",
     "cancel": "Cancel"
   },
+  "main": {
+    "dev_fullstack": "Fullstack Web Developer",
+    "internship": "Internship"
+  },
   "home": {
     "welcome": "Welcome!",
     "resume": "Resume",
@@ -10,7 +14,15 @@
     "portfolio": "Portfolio"
   },
   "summary": {
-    "technical_stack": "Technical Stack",
-    "job_title": "Fullstack Web Developer"
+    "technical_stack": "Technical Stack"
+  },
+  "resume": {
+    "experience": "Experience",
+    "academic": "Academic",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "projects": "Projects",
+    "jobs": "Jobs",
+    "hobbies": "Hobbies"
   }
 }
