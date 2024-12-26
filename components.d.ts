@@ -11,6 +11,7 @@ declare module 'vue' {
     AppBar: typeof import('./src/components/core/AppBar.vue')['default']
     CoreInfo: typeof import('./src/components/core/CoreInfo.vue')['default']
     Footer: typeof import('./src/components/core/Footer.vue')['default']
+    HtmlContent: typeof import('./src/components/utils/HtmlContent.vue')['default']
     Jobs: typeof import('./src/components/MainInfo/tabs/Jobs.vue')['default']
     MainInfo: typeof import('./src/components/MainInfo/index.vue')['default']
     Portfolio: typeof import('./src/components/MainInfo/tabs/Portfolio.vue')['default']
