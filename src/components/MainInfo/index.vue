@@ -4,6 +4,7 @@
       <v-tab value="aboutme"> {{ $t('home.aboutme') }} </v-tab>
       <v-tab value="resume"> {{ $t('home.resume') }} </v-tab>
       <v-tab value="portfolio"> {{ $t('home.portfolio') }} </v-tab>
+      <v-tab value="siteinfo"> {{ $t('home.siteinfo') }} </v-tab>
     </v-tabs>
     <v-card-text>
       <v-tabs-window v-model="tab">
@@ -15,6 +16,9 @@
         </v-tabs-window-item>
         <v-tabs-window-item value="portfolio">
           <Portfolio />
+        </v-tabs-window-item>
+        <v-tabs-window-item value="siteinfo">
+          <SiteInfo />
         </v-tabs-window-item>
 
       </v-tabs-window>

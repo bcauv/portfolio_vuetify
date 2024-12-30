@@ -11,17 +11,31 @@
     "welcome": "Welcome!",
     "resume": "Resume",
     "aboutme": "About Me",
-    "portfolio": "Portfolio"
+    "portfolio": "Portfolio",
+    "siteinfo": "Site Information"
   },
   "about_me": {
     "title": "Hi, I'm <u>Baptiste CAUVIN</u>, a {role} based in Paris, FRANCE.",
-    "description_part1": "<p class='py-1'> You're on my site. For now more my Resume site than my Portfolio site because I don't have a lot to show. </p>",
-    "description_part2": "<p class='py-1'>But the goal of that site is to do more site after that. This is the first time I make a site from A to Z, from the choice of techno, the setup of the site, of the different package used, to how to deploy a site, how to get an url, passing by the design of the site (with some inspiration from other) and resolving problems by myself (with my IA buddy of course, discovering Cursor by the way)</p>",
-    "description_part3": "<p class='py-1'> For now, my choice in term of technologies is what I know the most, so Vue.js with Vuetify and Vite. I've used that because my biggest experience, during 3 years, at BNP Paribas was with those technologies. And I can't show what I did during these 3 years, so I'm doing that to have something to show and to experiment too.</p>",
-    "description_part4": " <p class='py-1'> I enjoy discovering new thing, so I'll try other technologies after, try new challenges. I have some in mind, like doing that site without Vuetify because it's to easy using these kind of thing. Or also doing it with React.js, because it beginning to be a long time since I've used it, even if it has a lot of similarities with Vue.js</p>"
+    "description_part1": "You're on my site. For now more my Resume site than my Portfolio site because I don't have a lot to show.",
+    "description_part2": "But the goal of that site is to do more site after that. This is the first time I make a site from A to Z, from the choice of techno, the setup of the site, of the different package used, to how to deploy a site, how to get an url, passing by the design of the site (with some inspiration from other) and resolving problems by myself (with my IA buddy of course, discovering Cursor by the way).",
+    "description_part3": "For now, my choice in term of technologies is what I know the most, so Vue.js with Vuetify and Vite. I've used that because my biggest experience, during 3 years, at BNP Paribas was with those technologies. And I can't show what I did during these 3 years, so I'm doing that to have something to show and to experiment too.",
+    "description_part4": " I enjoy discovering new thing, so I'll try other technologies after, try new challenges. I have some in mind, like doing that site without Vuetify because it's to easy using these kind of thing. Or also doing it with React.js, because it beginning to be a long time since I've used it, even if it has a lot of similarities with Vue.js."
   },
   "summary": {
     "technical_stack": "Technical Stack"
+  },
+  "site_info": {
+    "technical_info": "Technical Information",
+    "intro": "The site is made with:",
+    "tech_list": {
+      "vuetify": "Vue.js with Vuetify",
+      "vite": "Vite",
+      "netlify": "Deployed With Netlify",
+      "cursor": "Mouse cursor with package Kursor.js",
+      "i18n": "Translation with package vue-i18n",
+      "cookies": "Cookies with package vue3-cookies",
+      "icons": "Icons with mdi icons"
+    }
   },
   "resume": {
     "experience": "Experience",

@@ -19,6 +19,7 @@ declare module 'vue' {
     Resume: typeof import('./src/components/MainInfo/tabs/Resume.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SiteInfo: typeof import('./src/components/MainInfo/tabs/SiteInfo.vue')['default']
     Summary: typeof import('./src/components/Summary.vue')['default']
   }
 }
