@@ -44,6 +44,9 @@
     "certifications": "Certifications",
     "projects": "Projets",
     "jobs": "Travails",
-    "hobbies": "Passions"
+    "hobbies": "Passions",
+    "bnp": {
+      "description": "En mission pendant 3 ans, en tant que Developpeur Web Fullstack dans l'équipe Automation à BNP Paribas. Axée sur l'automatisation des processus et le développement de sites web pour le support. Mon rôle impliquait l'utilisation de technologies telles que Node.js, Vue.js (framework Vuetify), TypeScript et MongoDB. Nous suivions une méthodologie agile avec des sprints de deux semaines, en utilisant Jira pour la gestion de projets. Des revues de sprint étaient effectuées pour évaluer les progrès."
+    }
   }
 }
