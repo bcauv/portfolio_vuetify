@@ -1,7 +1,7 @@
 <template>
     <v-footer color="structure" :app="true">
         <v-btn v-for="icon in footerIcon" :key="icon.icon" :icon="icon.icon" class="ma-0 pa-0" variant="text"
-            :href="icon.link" />
+            :href="icon.link" :aria-label="icon.label" :title="icon.label" />
     </v-footer>
 </template>
 
@@ -11,15 +11,18 @@ import { ref } from 'vue';
 const footerIcon = ref([
     {
         icon: 'mdi-github',
-        link: "https://github.com/bcauv"
+        link: "https://github.com/bcauv",
+        label: "GitHub"
     },
     {
         icon: "mdi-linkedin",
-        link: "https://www.linkedin.com/in/baptistecauvin/"
+        link: "https://www.linkedin.com/in/baptistecauvin/",
+        label: "LinkedIn"
     },
     {
         icon: "mdi-instagram",
-        link: "https://www.instagram.com/baptiste_cauvin/"
+        link: "https://www.instagram.com/baptiste_cauvin/",
+        label: "Instagram"
     }
 ])
 </script>

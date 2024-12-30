@@ -1,20 +1,23 @@
 <template>
     <v-container>
         <v-app-bar :elevation="2" color="structure">
-            <v-app-bar-title><v-img :width="75" aspect-ratio="1/1" src="/logo_no_bg.png"></v-img></v-app-bar-title>
+            <v-app-bar-title><v-img :width="75" aspect-ratio="1/1" alt="Logo" src="/logo_no_bg.png"
+                    title="Logo"></v-img></v-app-bar-title>
             <v-spacer />
-            <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
-                'custom-select rounded pa-2 pe-8',
-                `bg-${backgroundColor}`,
-                `text-${textColor}`,
-                theme.global.current.value.dark ? 'dark-border' : 'light-border'
-            ]">
-                <option v-for="locale in availableLocales" :key="`locale-${locale}`" :value="locale">
-                    {{ locale }}
-                </option>
-            </select>
-            <v-switch v-model="themeToggle" class="mx-2" inset hide-details false-icon="mdi-white-balance-sunny"
-                true-icon="mdi-weather-night" @click="toggleSwitch" />
+            <label title="Language" aria-label="Language">
+                <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
+                    'custom-select rounded pa-2 pe-8',
+                    `bg-${backgroundColor}`,
+                    `text-${textColor}`,
+                    theme.global.current.value.dark ? 'dark-border' : 'light-border'
+                ]">
+                    <option v-for="locale in availableLocales" :key="`locale-${locale}`" :value="locale">
+                        {{ locale }}
+                    </option>
+                </select>
+            </label>
+            <v-switch v-model="themeToggle" title="Switch Dark/Light mode" class="mx-2" inset hide-details
+                false-icon="mdi-white-balance-sunny" true-icon="mdi-weather-night" @click="toggleSwitch" />
         </v-app-bar>
     </v-container>
 </template>
