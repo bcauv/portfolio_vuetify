@@ -45,7 +45,10 @@
     "jobs": "Jobs",
     "hobbies": "Hobbies",
     "bnp": {
-      "description": "On a 3-year assignment as a Full Stack Web Developer in the Automation team at BNP Paribas. Focused on process automation and web development for support. My role involved using technologies such as Node.js, Vue.js (Vuetify framework), TypeScript, and MongoDB. We followed an agile methodology with two-week sprints, using Jira for project management. Sprint reviews were conducted to evaluate progress."
+      "description": "On a 3-year assignment as a {role} in the Automation team at BNP Paribas. Focused on process automation and web development for support. My role involved using technologies such as Node.js, Vue.js (Vuetify framework), TypeScript, and MongoDB. We followed an agile methodology with two-week sprints, using Jira for project management. Sprint reviews were conducted to evaluate progress."
+    },
+    "eatic": {
+      "description": "Internship at Eatic as a {role}. Vue.js and Node.js were the main languages used. I mainly worked on developing version 2.0 of the application. I developed the application specifications and participated in numerous tests."
     }
   }
 }
