@@ -37,18 +37,26 @@
     }
   },
   "resume": {
-    "experience": "Experience",
-    "academic": "Scolaire",
-    "skills": "Compétences",
-    "certifications": "Certifications",
-    "projects": "Projets",
-    "jobs": "Travails",
-    "hobbies": "Passions",
-    "bnp": {
-      "description": "En mission pendant 3 ans, en tant que {role} dans l'équipe Automation à BNP Paribas. Axée sur l'automatisation des processus et le développement de sites web pour le support. Mon rôle impliquait l'utilisation de technologies telles que Node.js, Vue.js (framework Vuetify), TypeScript et MongoDB. Nous suivions une méthodologie agile avec des sprints de deux semaines, en utilisant Jira pour la gestion de projets. Des revues de sprint étaient effectuées pour évaluer les progrès."
+    "academic": {
+      "title": "Scolaire"
     },
-    "eatic": {
-      "description": "Stage à Eatic, en tant que {role}. Vue.js et Node.js sont les langages principaux qui ont été utilisés. J'ai travaillé principalement sur le développement de la version 2.0 de l'application. J'ai élaboré le cahier de charge de l'application et participé aux nombreux tests effectués."
+    "skills": {
+      "title": "Compétences"
+    },
+    "projects": {
+      "title": "Projets"
+    },
+    "jobs": {
+      "title": "Travails",
+      "bnp": {
+        "description": "En mission pendant 3 ans, en tant que {role} dans l'équipe Automation à BNP Paribas. Axée sur l'automatisation des processus et le développement de sites web pour le support. Mon rôle impliquait l'utilisation de technologies telles que Node.js, Vue.js (framework Vuetify), TypeScript et MongoDB. Nous suivions une méthodologie agile avec des sprints de deux semaines, en utilisant Jira pour la gestion de projets. Des revues de sprint étaient effectuées pour évaluer les progrès."
+      },
+      "eatic": {
+        "description": "Stage à Eatic, en tant que {role}. Vue.js et Node.js sont les langages principaux qui ont été utilisés. J'ai travaillé principalement sur le développement de la version 2.0 de l'application. J'ai élaboré le cahier de charge de l'application et participé aux nombreux tests effectués."
+      }
+    },
+    "hobbies": {
+      "title": "Passions"
     }
   }
 }

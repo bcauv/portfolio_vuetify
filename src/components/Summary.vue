@@ -51,14 +51,14 @@ import { ref } from 'vue';
 
 const technicalStackArray = ref([
   {
+    icon: "mdi-nodejs",
+    link: "https://nodejs.org",
+    text: "Node.js"
+  },
+  {
     icon: "mdi-vuejs",
     link: "https://vuejs.org",
     text: "Vue.js"
-  },
-  {
-    icon: "mdi-database-outline",
-    link: "https://www.mongodb.com",
-    text: "MongoDB"
   },
   {
     icon: "mdi-language-typescript",
@@ -66,9 +66,9 @@ const technicalStackArray = ref([
     text: "Typescript"
   },
   {
-    icon: "mdi-nodejs",
-    link: "https://nodejs.org",
-    text: "Node.js"
-  }
+    icon: "mdi-database-outline",
+    link: "https://www.mongodb.com",
+    text: "MongoDB"
+  },
 ])
 </script>
