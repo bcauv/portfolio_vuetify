@@ -16,7 +16,7 @@ p {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
-  margin-bottom: 1 em;
+  margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
