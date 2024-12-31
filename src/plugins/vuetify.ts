@@ -10,7 +10,28 @@ import 'vuetify/styles'
 
 // Composables
 import { createVuetify } from 'vuetify'
-import * as components from "vuetify/components"
+import {
+  VApp,
+  VAppBar,
+  VAvatar,
+  VBtn,
+  VDivider,
+  VExpansionPanels,
+  VMain,
+  VSwitch,
+  VSpacer,
+  VImg,
+  VIcon,
+  VFooter,
+  VContainer,
+  VRow,
+  VCol,
+  VCard,
+  VTab,
+  VTabs,
+  VCardText,
+  VTabsWindow
+} from "vuetify/components"
 
 const darkColor = {
   dark: true,
@@ -34,7 +55,28 @@ const lightColor = {
 }
 // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
 export default createVuetify({
-  components,
+  components: {
+    VApp,
+    VAppBar,
+    VAvatar,
+    VBtn,
+    VDivider,
+    VExpansionPanels,
+    VMain,
+    VSwitch,
+    VSpacer,
+    VImg,
+    VIcon,
+    VFooter,
+    VContainer,
+    VRow,
+    VCol,
+    VCard,
+    VTab,
+    VTabs,
+    VCardText,
+    VTabsWindow
+  },
   theme: {
     defaultTheme: 'dark',
     themes: {

@@ -31,7 +31,6 @@
       "vuetify": "Vue.js with Vuetify",
       "vite": "Vite",
       "netlify": "Deployed With Netlify",
-      "cursor": "Mouse cursor with package Kursor.js",
       "i18n": "Translation with package vue-i18n",
       "cookies": "Cookies with package vue3-cookies",
       "icons": "Icons with mdi icons"
