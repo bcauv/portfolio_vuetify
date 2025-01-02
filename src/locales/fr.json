@@ -16,10 +16,12 @@
   },
   "about_me": {
     "title": "Bonjour, je suis <u>Baptiste CAUVIN</u>, un {role} basé à Paris, FRANCE.",
-    "description_part1": "Vous êtes sur mon site. Pour l'instant, c'est plus mon site CV que mon site de portfolio car je n'ai pas beaucoup de projets à montrer.",
-    "description_part2": "Mais le but de ce site est de faire plus de sites derrière. C'est la première fois que je fais un site de A à Z, du choix de la technologie, la configuration du site, des différents packages utilisés, la manière de déployer un site, comment obtenir une URL, en passant par la conception du site (en s'inspirant de l'existant) et en résolvant les problèmes par moi-même (avec mon pote l'IA bien sûr, en découvrant Cursor au passage).",
-    "description_part3": "Pour l'instant, mon choix en termes de technologies est ce que je connais le mieux, donc Vue.js avec Vuetify et Vite. J'ai utilisé cela parce que ma plus grande expérience, pendant 3 ans, chez BNP Paribas était avec ces technologies. Et je ne peux pas montrer ce que j'ai fait pendant ces 3 ans, donc je fais cela pour avoir quelque chose à montrer et pour expérimenter aussi.",
-    "description_part4": "J'aime découvrir de nouvelles choses, donc j'essaierai d'autres technologies après, de relever de nouveaux défis. J'en ai quelques-uns en tête, comme faire ce site sans Vuetify parce que c'est trop facile d'utiliser ce genre de choses. Ou aussi le faire avec React.js, car cela fait longtemps que je ne l'ai pas utilisé, même s'il a beaucoup de similitudes avec Vue.js."
+    "description": [
+      "Vous êtes sur mon site. Pour l'instant, c'est plus mon site CV que mon site de portfolio car je n'ai pas beaucoup de projets à montrer.",
+      "Mais le but de ce site est de faire plus de sites derrière. C'est la première fois que je fais un site de A à Z, du choix de la technologie, la configuration du site, des différents packages utilisés, la manière de déployer un site, comment obtenir une URL, en passant par la conception du site (en s'inspirant de l'existant) et en résolvant les problèmes par moi-même (avec mon pote l'IA bien sûr, en découvrant Cursor au passage).",
+      "Pour l'instant, mon choix en termes de technologies est ce que je connais le mieux, donc Vue.js avec Vuetify et Vite. J'ai utilisé cela parce que ma plus grande expérience, pendant 3 ans, chez BNP Paribas était avec ces technologies. Et je ne peux pas montrer ce que j'ai fait pendant ces 3 ans, donc je fais cela pour avoir quelque chose à montrer et pour expérimenter aussi.",
+      "J'aime découvrir de nouvelles choses, donc j'essaierai d'autres technologies après, de relever de nouveaux défis. J'en ai quelques-uns en tête, comme faire ce site sans Vuetify parce que c'est trop facile d'utiliser ce genre de choses. Ou aussi le faire avec React.js, car cela fait longtemps que je ne l'ai pas utilisé, même s'il a beaucoup de similitudes avec Vue.js."
+    ]
   },
   "summary": {
     "technical_stack": "Stack Technique"

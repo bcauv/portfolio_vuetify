@@ -3,8 +3,7 @@
     <HtmlContent path="about_me.title" :values="{ role: $t('main.dev_fullstack') }" class="pb-2" />
   </h2>
   <!-- peut etre repetitif avec ce qu'il y a a gauche -->
-  <p> {{ $t('about_me.description_part1') }} </p>
-  <p> {{ $t('about_me.description_part2') }} </p>
-  <p> {{ $t('about_me.description_part3') }} </p>
-  <p> {{ $t('about_me.description_part4') }} </p>
+  <p v-for="d in $tm('about_me.description')">
+    {{ d }}
+  </p>
 </template>
