@@ -18,7 +18,11 @@
     </v-expansion-panel>
     <v-expansion-panel :title="$t('resume.hobbies.title')">
       <v-expansion-panel-text>
-        Sport, tennis, coding, travels, films, music, video games
+        <ul>
+          <li v-for="hobby in $tm('resume.hobbies.list')">
+            {{ hobby }}
+          </li>
+        </ul>
       </v-expansion-panel-text>
     </v-expansion-panel>
   </v-expansion-panels>

@@ -118,7 +118,16 @@
       }
     },
     "hobbies": {
-      "title": "Passions"
+      "title": "Loisirs",
+      "list": [
+        "Sport. Tous types de sports, regarder et en faire.",
+        "Tennis. Depuis l'âge de cinq ans. J'en fais en compétition.",
+        "Coder (c'est mon travail, c'est mieux si j'aime ça un minimum aha)",
+        "Voyages (Mon objectif est de visiter chaque pays)",
+        "Films (toujours ouvert aux suggestions de films)",
+        "Musique",
+        "Jeux Vidéo"
+      ]
     }
   }
 }

@@ -118,7 +118,16 @@
       }
     },
     "hobbies": {
-      "title": "Hobbies"
+      "title": "Hobbies",
+      "list": [
+        "Sport. All kinds of sports, watching and doing.",
+        "Tennis. Since five. Doing competition.",
+        "Coding (it's my job, it's better if I like it a minimum aha)",
+        "Travels (My goal is to visit every country)",
+        "Films (always open for movie suggestions)",
+        "Music",
+        "Video Games"
+      ]
     }
   }
 }
