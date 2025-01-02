@@ -81,7 +81,32 @@
       }
     },
     "projects": {
-      "title": "Projects"
+      "title": "Projects",
+      "pimpMyApp": {
+        "title": "2020 PimpMyApp (Deloitte)",
+        "description": [
+          "Two-week project. The goal was to work with a company that gave us a problem. In teams of 5-6 people, within the given time, we had to think about the problem, propose solutions, and finally have a prototype of the solution to show.",
+          "We did it with the help of the Agile method. On our side, we were in collaboration with GRTgaz, to prototype a web app. It aimed to improve teleworking conditions during the lockdown for their employees. Use of the Design Sprint method and various tools, such as Mural and Figma."
+        ]
+      },
+      "feetBack": {
+        "title": "2019-2020 FeetBack",
+        "schoolProject": "School Project",
+        "description": [
+          "Team project of 6 focused on health. Throughout the school year, alongside classes.",
+          "Device allowing remote monitoring of the wear and reliability of orthopedic insoles. At the end of the year, we had a functional prototype, a mobile application connected to the insole and finally a website for doctors to consult the insole data.",
+          "On my side, I was mainly the tester since I have orthopedic insoles in everyday life and worked on the development of the website in React."
+        ]
+      },
+      "armOfHearing": {
+        "title": "2017-2018 Arm Of Hearing",
+        "schoolProject": "School Project",
+        "description": [
+          "Team project also focused on health. Throughout the school year, alongside classes.",
+          "Our goal was to create a device that translates sign language into spoken language. In the end, we had a device that could detect the entire alphabet.",
+          "For this project, I mainly helped with the design of the glove that detected the movements."
+        ]
+      }
     },
     "jobs": {
       "title": "Jobs",
