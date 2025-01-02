@@ -27,14 +27,14 @@
   "site_info": {
     "technical_info": "Technical Information",
     "intro": "The site is made with:",
-    "tech_list": {
-      "vuetify": "Vue.js with Vuetify",
-      "vite": "Vite",
-      "netlify": "Deployed With Netlify",
-      "i18n": "Translation with package vue-i18n",
-      "cookies": "Cookies with package vue3-cookies",
-      "icons": "Icons with mdi icons"
-    }
+    "tech_list": [
+      "Vue.js with Vuetify",
+      "Vite",
+      "Deployed With Netlify",
+      "Translation with package vue-i18n",
+      "Cookies with package vue3-cookies",
+      "Icons with mdi icons"
+    ]
   },
   "resume": {
     "academic": {
