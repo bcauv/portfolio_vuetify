@@ -42,8 +42,43 @@
     "academic": {
       "title": "Scolaire"
     },
+    "academics": {
+      "title": "Diplôme d'ingénieur (2021)",
+      "details": [
+        "Détails:",
+        "École d'ingénieurs ECE Paris 2016-2021",
+        "Spécialisation : \"OCRES\", Objets Connectés, Réseaux et services",
+        "Semestre à Londres, à l'Université Inseec U. London (2018)"
+      ]
+    },
     "skills": {
-      "title": "Compétences"
+      "title": "Compétences",
+      "technical": {
+        "title": "Compétences techniques",
+        "list": [
+          "Langages front-end: Vue.js et React.js",
+          "Langage back-end: Node.js",
+          "Javascript/Typescript",
+          "MongoDB",
+          "SQL",
+          "Quelques notions de DevOps et désireux d'en apprendre plus (Docker, Kubernetes)"
+        ]
+      },
+      "soft": {
+        "title": "Compétences générales (Soft Skills)",
+        "list": [
+          "Gestion de projet (Agile)"
+        ]
+      },
+      "languages": {
+        "title": "Langues",
+        "list": [
+          "Français (Natif)",
+          "Anglais (TOEIC 930)",
+          "Espagnol (niveau scolaire)",
+          "Portugais (niveau scolaire)"
+        ]
+      }
     },
     "projects": {
       "title": "Projets"

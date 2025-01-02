@@ -42,8 +42,43 @@
     "academic": {
       "title": "Academic"
     },
+    "academics": {
+      "title": "Engineer degree (2021)",
+      "details": [
+        "Details:",
+        "Engineer school ECE Paris 2016-2021",
+        "Specialization: \"OCRES\", Connected Objects, Network and services",
+        "Semester in London, in Inseec U. London University (2018)"
+      ]
+    },
     "skills": {
-      "title": "Skills"
+      "title": "Skills",
+      "technical": {
+        "title": "Technical Skills",
+        "list": [
+          "Front-end languages: Vue.js and React.js",
+          "Back-end languages: Node.js",
+          "Javascript/Typescript",
+          "MongoDB",
+          "SQL",
+          "Some DevOps notion and eager to learn more (Docker, Kubernetes)"
+        ]
+      },
+      "soft": {
+        "title": "Soft Skills",
+        "list": [
+          "Project Management (Agile)"
+        ]
+      },
+      "languages": {
+        "title": "Languages",
+        "list": [
+          "French (Native)",
+          "English (TOEIC 930)",
+          "Spanish (scholar level)",
+          "Portuguese (scholar level)"
+        ]
+      }
     },
     "projects": {
       "title": "Projects"

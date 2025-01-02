@@ -19,7 +19,7 @@
         </v-row>
       </v-container>
     </v-card-title>
-    <v-divider class="mx-4 my-2" />
+    <v-divider class="mx-4 my-2" thickness="3" />
     <v-card-text>
       <v-container class="mt-0 pt-0 d-flex justify-center flex-column">
         <v-row>

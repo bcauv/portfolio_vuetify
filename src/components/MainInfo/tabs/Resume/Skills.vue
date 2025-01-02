@@ -1,23 +1,21 @@
 <template>
-  <h2>Skills</h2>
-  <h3>Technical Skills</h3>
+  <h2>{{ $t('resume.skills.title') }}</h2>
+  <h3>{{ $t('resume.skills.technical.title') }}</h3>
   <ul class="default-list">
-    <li>Front-end languages : Vue.js and React.js</li>
-    <li>Back-end languages : Node.js</li>
-    <li>Javascript/Typescript</li>
-    <li>MongoDB</li>
-    <li>SQL</li>
-    <li>Some DevOps notion and eager to learn more (Docker, Kubernetes)</li>
+    <li v-for="l in $tm('resume.skills.technical.list')">
+      {{ l }}
+    </li>
   </ul>
-  <h3>Soft Skills</h3>
+  <h3>{{ $t('resume.skills.soft.title') }}</h3>
   <ul class="default-list">
-    <li>Gestion de Projet (Agile)</li>
+    <li v-for="l in $tm('resume.skills.soft.list')">
+      {{ l }}
+    </li>
   </ul>
-  <h3>Languages</h3>
+  <h3>{{ $t('resume.skills.languages.title') }}</h3>
   <ul class="default-list">
-    <li>French (Native)</li>
-    <li>English (TOEIC 930)</li>
-    <li>Spanish (scholar level)</li>
-    <li>Portuguese (scholar level)</li>
+    <li v-for="l in $tm('resume.skills.languages.list')">
+      {{ l }}
+    </li>
   </ul>
 </template>
