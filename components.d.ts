@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AboutMe: typeof import('./src/components/MainInfo/tabs/AboutMe.vue')['default']
+    Academics: typeof import('./src/components/MainInfo/tabs/Resume/Academics.vue')['default']
     AppBar: typeof import('./src/components/core/AppBar.vue')['default']
     CoreInfo: typeof import('./src/components/core/CoreInfo.vue')['default']
     Footer: typeof import('./src/components/core/Footer.vue')['default']
@@ -20,6 +21,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SiteInfo: typeof import('./src/components/MainInfo/tabs/SiteInfo.vue')['default']
+    Skills: typeof import('./src/components/MainInfo/tabs/Resume/Skills.vue')['default']
     Summary: typeof import('./src/components/Summary.vue')['default']
   }
 }
