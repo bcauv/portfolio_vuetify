@@ -18,6 +18,11 @@
       </label>
       <v-switch v-model="themeToggle" title="Switch Dark/Light mode" class="mx-2" inset hide-details
         false-icon="mdi-white-balance-sunny" true-icon="mdi-weather-night" @click="toggleSwitch" />
+      <div class="snowflakes" aria-hidden="true">
+        <div v-for="n in 50" :key="`snowflake-${n}`" class="snowflake" :style="generateSnowflakeStyle()">
+          {{ n % 2 === 0 ? '❅' : '❆' }}
+        </div>
+      </div>
     </v-app-bar>
   </v-container>
 </template>
@@ -44,6 +49,17 @@ const toggleSwitch = () => {
   theme.global.name.value = themeToggle.value ? 'light' : 'dark'
   cookies.set("theme", theme.global.name.value);
 }
+const generateSnowflakeStyle = () => {
+  // TODO see why there is a delay between the first wave of snow and the second
+  const left = Math.random() * 100;
+  const duration = Math.random() * 10 + 5; // 5s to 15s
+  const delay = Math.random() / 5;
+  return {
+    left: `${left}%`,
+    animationDuration: `${duration}s`,
+    animationDelay: `${delay}s`
+  };
+};
 const setup = () => {
   // Theme Setup
   let themeCookie = cookies.get("theme");
@@ -77,5 +93,34 @@ onMounted(() => {
 .dark-border {
   border-color: rgba(255, 255, 255, 0.3);
   /* Subtle light border for dark mode */
+}
+
+.snowflakes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  user-select: none;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(100vh);
+  }
 }
 </style>
