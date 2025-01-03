@@ -2,7 +2,8 @@
   <div v-html="content"></div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import DOMPurify from 'dompurify';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
@@ -18,5 +19,9 @@ const props = defineProps({
 });
 
 const { t } = useI18n();
-const content = computed(() => t(props.path, props.values));
+const content = computed(() => {
+  const rawHTML = t(props.path, props.values)
+  return DOMPurify.sanitize(rawHTML)
+});
+
 </script>
