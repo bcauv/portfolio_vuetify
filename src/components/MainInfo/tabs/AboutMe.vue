@@ -1,9 +1,14 @@
 <template>
-  <h2>
+  <h1>
     <HtmlContent path="about_me.title" :values="{ role: $t('main.dev_fullstack') }" class="pb-2" />
-  </h2>
-  <!-- peut etre repetitif avec ce qu'il y a a gauche -->
+  </h1>
+  <h2> {{ $t('about_me.welcome') }}</h2>
   <p v-for="d in $tm('about_me.description')">
     {{ d }}
   </p>
+  <ul class="default-list">
+    <li v-for="project in $tm('about_me.project_list')">
+      {{ project }}
+    </li>
+  </ul>
 </template>

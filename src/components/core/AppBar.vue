@@ -51,6 +51,7 @@ const toggleSwitch = () => {
 }
 const generateSnowflakeStyle = () => {
   // TODO see why there is a delay between the first wave of snow and the second
+  // TODO add date detection to stop falling after the end of winter
   const left = Math.random() * 100;
   const duration = Math.random() * 10 + 5; // 5s to 15s
   const delay = Math.random() / 5;

@@ -16,11 +16,16 @@
   },
   "about_me": {
     "title": "Hi, I'm <u>Baptiste CAUVIN</u>, a {role} based in Paris, FRANCE.",
+    "welcome": "Welcome on my portfolio site.",
     "description": [
-      "You're on my site. For now more my Resume site than my Portfolio site because I don't have a lot to show.",
-      "But the goal of that site is to do more site after that. This is the first time I make a site from A to Z, from the choice of techno, the setup of the site, of the different package used, to how to deploy a site, how to get an url, passing by the design of the site (with some inspiration from other) and resolving problems by myself (with my IA buddy of course, discovering Cursor by the way).",
-      "For now, my choice in term of technologies is what I know the most, so Vue.js with Vuetify and Vite. I've used that because my biggest experience, during 3 years, at BNP Paribas was with those technologies. And I can't show what I did during these 3 years, so I'm doing that to have something to show and to experiment too.",
-      "I enjoy discovering new thing, so I'll try other technologies after, try new challenges. I have some in mind, like doing that site without Vuetify because it's to easy using these kind of thing. Or also doing it with React.js, because it beginning to be a long time since I've used it, even if it has a lot of similarities with Vue.js."
+      "With that site, you can have a glimpse of what I can do. Because in term of projects, I've worked 3 years at BNP Paribas and all of their projects are confidential and on their intranet, so I can't show what I did during those 3 years. Moreover, with that site, I've gained some experience, because this is the first time I make a site from scratch, from the choice of techno, the setup of the site, the different package used, to how to deploy a site, how to get an url, passing by the design of the site (with some inspiration from other) and resolving problems by myself (with the help of my IA buddy).",
+      "For now, my choice in term of technologies is what I know the most, so Vue.js with Vuetify and Vite. I've used that because my biggest experience,the 3 years at BNP Paribas, was with those technologies. With these technologies, I have a solid base to be sure that my site is working, that I can develop it quick and also experiment with new things that I wanted to try along the way.",
+      "I enjoy discovering new thing, so I've planned to try other technologies after, try new challenges. I have a few in mind :"
+    ],
+    "project_list": [
+      "Trying to remove bit by bit Vuetify from that site, to experiment other way to make a site, make it responsive and everything. Because I have the feeling that with vuetify is to easy, and in the end, you can tell easily when a site use Vuetify (are any Material Design template).",
+      "Make this site (are another one because, maybe, it will be repetitive) with React.js. To remind me of the little difference between Vue.js and React.js and refreshing my memory about it because it been quite some times since I last used React.js.",
+      "Other that I have in mind and hoping to have the time to see them through."
     ]
   },
   "summary": {
