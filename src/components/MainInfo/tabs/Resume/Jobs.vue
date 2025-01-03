@@ -1,5 +1,5 @@
 <template>
-  <v-expansion-panels variant="accordion" color="primary">
+  <v-expansion-panels variant="accordion" color="structure">
     <v-expansion-panel title="2022-2024 BNP Paribas/Solutec">
       <v-expansion-panel-text>
         <h3>{{ $t('main.dev_fullstack') }}</h3>

@@ -1,5 +1,5 @@
 <template>
-  <v-expansion-panels variant="accordion" color="primary">
+  <v-expansion-panels variant="accordion" color="structure">
     <v-expansion-panel :title="$t('resume.projects.pimpMyApp.title')">
       <v-expansion-panel-text>
         <p v-for="d in $tm('resume.projects.pimpMyApp.description')">
