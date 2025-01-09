@@ -1,10 +1,10 @@
 <template>
   <v-card>
-    <v-tabs v-model="tab">
-      <v-tab value="aboutme"> {{ $t('home.aboutme') }} </v-tab>
-      <v-tab value="resume"> {{ $t('home.resume') }} </v-tab>
-      <v-tab value="portfolio"> {{ $t('home.portfolio') }} </v-tab>
-      <v-tab value="siteinfo"> {{ $t('home.siteinfo') }} </v-tab>
+    <v-tabs v-model="tab" align-tabs="end">
+      <v-tab value="aboutme" variant="tonal"> {{ $t('home.aboutme') }} </v-tab>
+      <v-tab value="resume" variant="tonal"> {{ $t('home.resume') }} </v-tab>
+      <v-tab value="portfolio" variant="tonal"> {{ $t('home.portfolio') }} </v-tab>
+      <v-tab value="siteinfo" variant="tonal"> {{ $t('home.siteinfo') }} </v-tab>
     </v-tabs>
     <v-card-text>
       <v-tabs-window v-model="tab">

@@ -117,11 +117,11 @@ onMounted(() => {
 
 @keyframes fall {
   0% {
-    transform: translateY(0);
+    transform: translateY(0) translateX(0);
   }
 
   100% {
-    transform: translateY(100vh);
+    transform: translateY(100vh) translateX(50vh);
   }
 }
 </style>
