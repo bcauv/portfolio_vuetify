@@ -1,28 +1,30 @@
 <template>
   <v-container>
     <v-app-bar :elevation="2" color="structure">
-      <v-app-bar-title><v-img :width="75" aspect-ratio="1/1" alt="Logo" src="/logo_no_bg.png"
-          title="Logo"></v-img></v-app-bar-title>
-      <v-spacer />
-      <label title="Language" aria-label="Language">
-        <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
-          'custom-select rounded pa-2 pe-8',
-          `bg-${backgroundColor}`,
-          `text-${textColor}`,
-          theme.global.current.value.dark ? 'dark-border' : 'light-border'
-        ]">
-          <option v-for="locale in availableLocales" :key="`locale-${locale}`" :value="locale">
-            {{ locale }}
-          </option>
-        </select>
-      </label>
-      <v-switch v-model="themeToggle" title="Switch Dark/Light mode" class="mx-2" inset hide-details
-        false-icon="mdi-white-balance-sunny" true-icon="mdi-weather-night" @click="toggleSwitch" />
-      <div class="snowflakes" aria-hidden="true">
-        <div v-for="n in 50" :key="`snowflake-${n}`" class="snowflake" :style="generateSnowflakeStyle()">
-          {{ n % 2 === 0 ? '❅' : '❆' }}
+      <v-app-bar-title>
+        <v-img :width="75" aspect-ratio="1/1" alt="Logo" src="/logo_no_bg.png" title="Logo" />
+      </v-app-bar-title>
+      <template v-slot:append>
+        <label title="Language" aria-label="Language">
+          <select v-model="$i18n.locale" @change="handleLanguageChange($i18n.locale)" :class="[
+            'custom-select rounded pa-2 pe-8',
+            `bg-${backgroundColor}`,
+            `text-${textColor}`,
+            theme.global.current.value.dark ? 'dark-border' : 'light-border'
+          ]">
+            <option v-for="locale in availableLocales" :key="`locale-${locale}`" :value="locale">
+              {{ locale }}
+            </option>
+          </select>
+        </label>
+        <v-switch v-model="themeToggle" title="Switch Dark/Light mode" class="mx-2" inset hide-details
+          false-icon="mdi-white-balance-sunny" true-icon="mdi-weather-night" @click="toggleSwitch" />
+        <div v-if="month < 2 || month > 10" class="snowflakes" aria-hidden="true">
+          <div v-for="n in 50" :key="`snowflake-${n}`" class="snowflake" :style="generateSnowflakeStyle()">
+            {{ n % 2 === 0 ? '❅' : '❆' }}
+          </div>
         </div>
-      </div>
+      </template>
     </v-app-bar>
   </v-container>
 </template>
@@ -40,6 +42,7 @@ const { locale, availableLocales } = useI18n()
 const themeToggle = ref(true)
 const backgroundColor = 'structure'
 const textColor = 'letters'
+const month = new Date().getMonth()
 
 // Add language handling
 const handleLanguageChange = (newLocale: string) => {
@@ -51,7 +54,6 @@ const toggleSwitch = () => {
 }
 const generateSnowflakeStyle = () => {
   // TODO see why there is a delay between the first wave of snow and the second
-  // TODO add date detection to stop falling after the end of winter
   const left = Math.random() * 100;
   const duration = Math.random() * 10 + 5; // 5s to 15s
   const delay = Math.random() / 5;
